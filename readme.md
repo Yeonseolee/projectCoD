@@ -5,5 +5,5 @@
 * 어플 소개 : 주니어 개발자로부터 공모전 의뢰를 맡기고, 진행한 프로젝트를 포트폴리오로 기록할 수 있는 플랫폼
 
 
-* 사용 언어 & 프레임워크 : firbase, androidStudio
+* 사용 언어 & 프레임워크 : firbase, androidStudio\
 firbase를 이용해 서버 & 클라이언트 작업 진행. 레이아웃 구성은 androidSudio를 이용
