@@ -7,6 +7,7 @@
 * 어플 소개 : 주니어 개발자로부터 공모전 의뢰를 맡기고, 진행한 프로젝트를 포트폴리오로 기록할 수 있는 플랫폼
 
 
-* 사용 스택 : firbase, XML, Adobe XD\n
-firbase를 이용해 서버 & 클라이언트 작업 진행. UI 개발은 androidSudio를 이용, XML 작성\n
+* 사용 스택 : firbase, XML, Adobe XD
+
+firbase를 이용해 서버 & 클라이언트 작업 진행. UI 개발은 androidSudio를 이용, XML 작성
 UI 개발 업무를 담당함\n
