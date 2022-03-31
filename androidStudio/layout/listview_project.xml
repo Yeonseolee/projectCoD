@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E7E7E7"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/list_window"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/list_background"
+            android:elevation="10dp">
+
+            <RelativeLayout
+                android:id="@+id/list_template"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chat_box"
+                android:elevation="10dp"
+                android:paddingBottom="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/alarm_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="8dp"
+                    android:text="APP"
+                    android:textColor="#FE28A2"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_listCompany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_category"
+                    android:text="세동상사"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView_listTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/alarm_category"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp"
+                    android:text="상세내용 ㅇㅇㄴㅁㄴㅇㄻㄴㅇㄹ;ㅂ잗ㄻㄴㅇ;리ㅏㅁ넝럼ㄴ;ㅇㄻㅇㄴㄻㄴ이라ㅓ"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/icon_alarm"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_below="@+id/textView_listTitle"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/icon_alarm" />
+
+                <TextView
+                    android:id="@+id/textView_listDeadline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/icon_alarm"
+                    android:layout_toRightOf="@+id/icon_alarm"
+                    android:paddingLeft="8dp"
+                    android:text="~2020.08.29(D-?일)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/icon_point"
+                    android:layout_width="24dp"
+                    android:layout_height="12dp"
+                    android:layout_alignBottom="@+id/textView_listDeadline"
+                    android:layout_toRightOf="@+id/textView_listDeadline"
+                    android:paddingLeft="11dp"
+                    android:src="@drawable/icon_point" />
+
+                <TextView
+                    android:id="@+id/textView_listReward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/icon_point"
+                    android:layout_toRightOf="@+id/icon_point"
+                    android:paddingLeft="8dp"
+                    android:text="100만원"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:layout_below="@+id/icon_alarm"
+                    android:layout_marginTop="10dp"
+                    android:background="#D1D1D1" />
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
