@@ -10,4 +10,5 @@
 * 사용 스택 : firbase, XML, Adobe XD
 
 firbase를 이용해 서버 & 클라이언트 작업 진행. UI 개발은 androidSudio를 이용, XML 작성
-UI 개발 업무를 담당함\n
+
+UI 개발 업무를 담당함
